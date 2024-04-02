@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Danh sách chó</title>
+</head>
+<body>
+    <h1>Danh sách chó</h1>
+    <label for="main-breeds">Dòng chó chính:</label>
+    <select id="main-breeds" onchange="loadSubBreeds()">
+        <option value="">Chọn dòng chó chính</option>
+    </select>
+
+    <h2>Dòng chó phụ:</h2>
+    <ul id="sub-breeds"></ul>
+
+    <h3>Hình ảnh ngẫu nhiên:</h3>
+    <div id="random-image"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
